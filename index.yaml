@@ -200,6 +200,35 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 2.4.1
+    created: "2020-09-25T17:40:57.361587863Z"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: 8a331351009efb425c06937b3274c1177f6d361bb8bbb5ab570c7389337d9886
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysqldump-2.6.3/mysqldump-2.6.3.tgz
+    version: 2.6.3
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.4.1
     created: "2020-09-25T17:35:11.810094993Z"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: ecebcaacb6b579700fa56ac1cf3802d7f6967b99f7d597253dfdde439f0d3512
