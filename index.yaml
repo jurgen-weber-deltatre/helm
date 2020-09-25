@@ -158,6 +158,23 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/mysql-cluster-0.0.1/mysql-cluster-0.0.1.tgz
     version: 0.0.1
+  onlyoffice:
+  - apiVersion: v1
+    appVersion: 5.6.4.20
+    created: "2020-09-25T03:25:57.94850042Z"
+    description: A Helm chart for onlyoffice
+    digest: 58820d7bec0aedeb5b5d15666f695f0edb5addf8a87a50792582d78859acb5bb
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.0.0/onlyoffice-1.0.0.tgz
+    version: 1.0.0
   percona-toolkit:
   - annotations:
       category: Database
