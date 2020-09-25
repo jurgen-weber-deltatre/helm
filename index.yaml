@@ -1,6 +1,22 @@
 apiVersion: v1
 entries:
   event-exporter:
+  - annotations:
+      category: LogManagement
+    apiVersion: v2
+    appVersion: "0.9"
+    created: "2020-09-25T02:51:54.985127225Z"
+    description: event-exporter
+    digest: 8e0b28455965933748b0d808b7247acd54d0d41cca4c359561dd9df433476e9c
+    home: https://github.com/kfirfer/helm/tree/master/charts/event-exporter
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: event-exporter
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/event-exporter-0.0.3/event-exporter-0.0.3.tgz
+    version: 0.0.3
   - apiVersion: v2
     appVersion: "0.9"
     created: "2020-09-25T02:39:02.03102471Z"
@@ -28,6 +44,25 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/event-exporter-0.0.1/event-exporter-0.0.1.tgz
     version: 0.0.1
   haproxy:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.2.3
+    created: "2020-09-25T02:51:55.069518615Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 3f40df91a76aa48f59b5d0181da7cb4e7b742fd9ddfc7328cd3bac292d7ea184
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/haproxy-0.0.2/haproxy-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v1
     appVersion: 2.2.3
     created: "2020-09-25T00:31:48.872178696Z"
@@ -56,6 +91,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/metallb-0.0.1/metallb-0.0.1.tgz
     version: 0.0.1
   mysql-check:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.4.13
+    created: "2020-09-25T02:51:55.150954824Z"
+    description: A Helm chart for Kubernetes
+    digest: 19325b4d24c60b18ac778474796dcbc894d466ec4b8e78de7343f1a9e72e99d7
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-check-0.0.2/mysql-check-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 10.4.13
     created: "2020-09-25T00:31:49.079106215Z"
@@ -71,6 +123,25 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/mysql-check-0.0.1/mysql-check-0.0.1.tgz
     version: 0.0.1
   mysql-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.20
+    created: "2020-09-25T02:51:55.234760097Z"
+    description: A Helm chart for MySQL Cluster
+    digest: ec0694629598dc7544455fede5c159131298c762870fc7e775095819c4e8621c
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-cluster
+    keywords:
+    - kubernetes
+    - mysql
+    - mysql-cluster
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-cluster
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-cluster-0.0.2/mysql-cluster-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 8.0.20
     created: "2020-09-25T00:31:49.191847771Z"
@@ -88,6 +159,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/mysql-cluster-0.0.1/mysql-cluster-0.0.1.tgz
     version: 0.0.1
   percona-toolkit:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.2.1
+    created: "2020-09-25T02:51:55.324153622Z"
+    description: A Helm chart for Kubernetes
+    digest: 6654240ac2374dff526cc4cc05d3ad73ff611e35ffce8a58add74cc51dd7b6b7
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-toolkit
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/percona-toolkit-0.0.2/percona-toolkit-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 3.2.1
     created: "2020-09-25T00:31:49.280452803Z"
@@ -158,6 +246,25 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/percona-xtradb-cluster-1.0.5/percona-xtradb-cluster-1.0.5.tgz
     version: 1.0.5
   permission-manager:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: v1.6.0
+    created: "2020-09-25T02:51:55.410372361Z"
+    description: A Helm chart for Kube-hunter
+    digest: 5118ed2ccf59244035130cecfeb5512abdf6745319f2823bc2919449164f49a9
+    home: https://github.com/kfirfer/helm/tree/master/charts/permission-manager
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    keywords:
+    - kubernetes
+    - security
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: permission-manager
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/permission-manager-0.0.2/permission-manager-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: v1.6.0
     created: "2020-09-25T00:31:49.472783687Z"
@@ -175,6 +282,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/permission-manager-0.0.1/permission-manager-0.0.1.tgz
     version: 0.0.1
   phpmyadmin:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 5.0.2
+    created: "2020-09-25T02:51:55.51281064Z"
+    description: A Helm chart for Kubernetes
+    digest: 06d1335c970f1d42410e2db4f517fb1c3d52c8b89ae80ae975701e03828b0b46
+    home: https://github.com/kfirfer/helm/tree/master/charts/phpmyadmin
+    icon: https://bitnami.com/assets/stacks/phpmyadmin/img/phpmyadmin-stack-220x234.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: phpmyadmin
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/phpmyadmin-0.0.2/phpmyadmin-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 5.0.2
     created: "2020-09-25T00:31:49.568096815Z"
@@ -190,6 +314,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/phpmyadmin-0.0.1/phpmyadmin-0.0.1.tgz
     version: 0.0.1
   pmm-server:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.9.1
+    created: "2020-09-25T02:51:55.62447917Z"
+    description: A Helm chart for Kubernetes
+    digest: 39560de97456b4d3b10852b5cd921a14d5a2d0e5dd1a2c9e657bf0fd28d9a236
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/pmm-server-0.0.2/pmm-server-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 2.9.1
     created: "2020-09-25T00:31:49.665570631Z"
