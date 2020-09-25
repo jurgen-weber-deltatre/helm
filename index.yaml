@@ -127,6 +127,26 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.20
+    created: "2020-09-25T03:34:11.966289139Z"
+    description: A Helm chart for MySQL Cluster
+    digest: 032fbb784c92e78a9a7fe2479bd36c73402b22bd99c4a13fb7f68e33cf2e1edb
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-cluster
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - kubernetes
+    - mysql
+    - mysql-cluster
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-cluster
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-cluster-0.0.3/mysql-cluster-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.20
     created: "2020-09-25T02:51:55.234760097Z"
     description: A Helm chart for MySQL Cluster
     digest: ec0694629598dc7544455fede5c159131298c762870fc7e775095819c4e8621c
@@ -158,6 +178,36 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/mysql-cluster-0.0.1/mysql-cluster-0.0.1.tgz
     version: 0.0.1
+  mysqldump:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.4.1
+    created: "2020-09-25T03:34:12.060782071Z"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: a5f7dfa1a1a7dfa87a50683e687ea41e07ea25e371c1ef46fab56344d2e3b87b
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysqldump-2.6.1/mysqldump-2.6.1.tgz
+    version: 2.6.1
   onlyoffice:
   - apiVersion: v1
     appVersion: 5.6.4.20
