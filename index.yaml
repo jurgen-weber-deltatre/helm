@@ -3,6 +3,19 @@ entries:
   event-exporter:
   - apiVersion: v2
     appVersion: "0.9"
+    created: "2020-09-25T02:39:02.03102471Z"
+    description: event-exporter
+    digest: 3e7b7cc4f218f9226f7be9dbbfa06aaf8fe9bdd896bf100a65224ed67297c0dd
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: event-exporter
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/event-exporter-0.0.2/event-exporter-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: "0.9"
     created: "2020-09-25T00:31:48.773772688Z"
     description: event-exporter
     digest: ad68f62e4a7f78b7df8e76df74fb150fea7927ecc7de9f4f5e45fb1210de082b
@@ -90,6 +103,34 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/percona-toolkit-0.0.1/percona-toolkit-0.0.1.tgz
     version: 0.0.1
   percona-xtradb-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 8.0.19-10.1
+    created: "2020-09-25T02:39:02.138794816Z"
+    description: free, fully compatible, enhanced, open source drop-in replacement
+      for MySQL with Galera Replication (xtradb)
+    digest: ab423a833f384b586a5a327e71d32742a68bfea07bf044040a9d42a4b91d560e
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-xtradb-cluster
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    keywords:
+    - mysql
+    - percona
+    - database
+    - sql
+    - xtradb
+    - galera
+    - wsrep
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: percona-xtradb-cluster
+    sources:
+    - https://www.percona.com/
+    - https://github.com/percona-lab/percona-docker/
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/percona-xtradb-cluster-1.0.6/percona-xtradb-cluster-1.0.6.tgz
+    version: 1.0.6
   - apiVersion: v1
     appVersion: 8.0.19-10.1
     created: "2020-09-25T00:31:49.374319338Z"
