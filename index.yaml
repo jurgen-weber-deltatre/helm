@@ -1,0 +1,166 @@
+apiVersion: v1
+entries:
+  event-exporter:
+  - apiVersion: v2
+    appVersion: "0.9"
+    created: "2020-09-25T00:31:48.773772688Z"
+    description: event-exporter
+    digest: ad68f62e4a7f78b7df8e76df74fb150fea7927ecc7de9f4f5e45fb1210de082b
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: event-exporter
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/event-exporter-0.0.1/event-exporter-0.0.1.tgz
+    version: 0.0.1
+  haproxy:
+  - apiVersion: v1
+    appVersion: 2.2.3
+    created: "2020-09-25T00:31:48.872178696Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: dec7c8bddf31c1f11e8fb1cffa13a6c523e79a6c1a0ae1b738175c5622989c7d
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/haproxy-0.0.1/haproxy-0.0.1.tgz
+    version: 0.0.1
+  metallb:
+  - apiVersion: v2
+    appVersion: v0.9.3
+    created: "2020-09-25T00:31:48.984143165Z"
+    description: Metallb - load balancer
+    digest: 07624ebdbc56714572ae0d814536909e4f016d381e4df1bf7f920a3a402c207b
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    name: metallb
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/metallb-0.0.1/metallb-0.0.1.tgz
+    version: 0.0.1
+  mysql-check:
+  - apiVersion: v2
+    appVersion: 10.4.13
+    created: "2020-09-25T00:31:49.079106215Z"
+    description: A Helm chart for Kubernetes
+    digest: 15ebf370babcfc62ce0e772ce4555c5e8f542933b6e47b4ffa26b8a52014cd76
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/mysql-check-0.0.1/mysql-check-0.0.1.tgz
+    version: 0.0.1
+  mysql-cluster:
+  - apiVersion: v2
+    appVersion: 8.0.20
+    created: "2020-09-25T00:31:49.191847771Z"
+    description: A Helm chart for MySQL Cluster
+    digest: 27f418da0f402c1411d73a58e57b5b6163701380886e203e44998fc799044448
+    keywords:
+    - kubernetes
+    - mysql
+    - mysql-cluster
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-cluster
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/mysql-cluster-0.0.1/mysql-cluster-0.0.1.tgz
+    version: 0.0.1
+  percona-toolkit:
+  - apiVersion: v2
+    appVersion: 3.2.1
+    created: "2020-09-25T00:31:49.280452803Z"
+    description: A Helm chart for Kubernetes
+    digest: e8ffd46245c7cdb30508e443437f1a4fe8396b976b4008f3f97b8a61a995f3f2
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/percona-toolkit-0.0.1/percona-toolkit-0.0.1.tgz
+    version: 0.0.1
+  percona-xtradb-cluster:
+  - apiVersion: v1
+    appVersion: 8.0.19-10.1
+    created: "2020-09-25T00:31:49.374319338Z"
+    description: free, fully compatible, enhanced, open source drop-in replacement
+      for MySQL with Galera Replication (xtradb)
+    digest: 30afe9262311312fc239f88c30ece3a74044884e5370833cd5476600ca17e677
+    home: https://www.percona.com/
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    keywords:
+    - mysql
+    - percona
+    - database
+    - sql
+    - xtradb
+    - galera
+    - wsrep
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: percona-xtradb-cluster
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/percona-lab/percona-docker/
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/percona-xtradb-cluster-1.0.5/percona-xtradb-cluster-1.0.5.tgz
+    version: 1.0.5
+  permission-manager:
+  - apiVersion: v2
+    appVersion: v1.6.0
+    created: "2020-09-25T00:31:49.472783687Z"
+    description: A Helm chart for Kube-hunter
+    digest: 40ad39b59eaf00cb7c8938acdf9f2f49dc455b4024c1662258d7ca5d7072ea35
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    keywords:
+    - kubernetes
+    - security
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: permission-manager
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/permission-manager-0.0.1/permission-manager-0.0.1.tgz
+    version: 0.0.1
+  phpmyadmin:
+  - apiVersion: v2
+    appVersion: 5.0.2
+    created: "2020-09-25T00:31:49.568096815Z"
+    description: A Helm chart for Kubernetes
+    digest: f950b95e784b1d04d42022b44235fe47d04c08eb1926ec0e6f59e62ce1cf9f76
+    icon: https://bitnami.com/assets/stacks/phpmyadmin/img/phpmyadmin-stack-220x234.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: phpmyadmin
+    type: application
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/phpmyadmin-0.0.1/phpmyadmin-0.0.1.tgz
+    version: 0.0.1
+  pmm-server:
+  - apiVersion: v2
+    appVersion: 2.9.1
+    created: "2020-09-25T00:31:49.665570631Z"
+    description: A Helm chart for Kubernetes
+    digest: 59160f5964d12cf33ff2d93a183aa0182c5b0dc0cc9be42c195de9e3382d9ed7
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/charts/releases/download/pmm-server-0.0.1/pmm-server-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-09-25T00:31:48.599105113Z"
