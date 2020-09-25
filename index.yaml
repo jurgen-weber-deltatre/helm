@@ -493,6 +493,23 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 5.0.2
+    created: "2020-09-25T08:02:48.869583482Z"
+    description: A Helm chart for Kubernetes
+    digest: 3f67562fb9e74b52654396f24d2c3ec9b8194c7569e5b7b79671e345a2e4edd5
+    home: https://github.com/kfirfer/helm/tree/master/charts/phpmyadmin
+    icon: https://bitnami.com/assets/stacks/phpmyadmin/img/phpmyadmin-stack-220x234.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: phpmyadmin
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/phpmyadmin-0.0.3/phpmyadmin-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 5.0.2
     created: "2020-09-25T02:51:55.51281064Z"
     description: A Helm chart for Kubernetes
     digest: 06d1335c970f1d42410e2db4f517fb1c3d52c8b89ae80ae975701e03828b0b46
@@ -521,6 +538,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/phpmyadmin-0.0.1/phpmyadmin-0.0.1.tgz
     version: 0.0.1
   pmm-server:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.9.1
+    created: "2020-09-25T08:02:48.987007615Z"
+    description: A Helm chart for Kubernetes
+    digest: e7faed422cee96715f8bdca7b8f2ec164e4443d5fd7f1ec04152c21042062932
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/pmm-server-0.0.3/pmm-server-0.0.3.tgz
+    version: 0.0.3
   - annotations:
       category: Database
     apiVersion: v2
