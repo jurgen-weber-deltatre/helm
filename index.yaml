@@ -79,6 +79,21 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/haproxy-0.0.1/haproxy-0.0.1.tgz
     version: 0.0.1
+  jellyfin:
+  - apiVersion: v1
+    appVersion: 10.6.4
+    created: "2020-09-26T02:34:51.027361621Z"
+    description: Jellyfin
+    digest: 3495e8be25e23a8649388bada69cabf2c12ad1324736b1f48c0e5056ae3e459d
+    home: https://github.com/kfirfer/helm/tree/master/charts/jellyfin
+    icon: https://developer.asustor.com/uploadIcons/0020_999_1568614440_Jellyfin_256.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: jellyfin
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/jellyfin-1.0.0/jellyfin-1.0.0.tgz
+    version: 1.0.0
   metallb:
   - apiVersion: v2
     appVersion: v0.9.3
