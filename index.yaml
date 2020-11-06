@@ -833,4 +833,17 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/pmm-server-0.0.1/pmm-server-0.0.1.tgz
     version: 0.0.1
+  redis-commander:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2020-11-06T22:41:21.243899864Z"
+    description: A Helm chart for redis-commander
+    digest: ce9bea8d4a74c7f9bb2e1ac3db2e77e98e515eeeabca2352adb976960219b90d
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-commander-0.0.1/redis-commander-0.0.1.tgz
+    version: 0.0.1
 generated: "2020-09-25T00:31:48.599105113Z"
