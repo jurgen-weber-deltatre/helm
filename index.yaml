@@ -129,6 +129,23 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 10.4.13
+    created: "2020-12-06T12:41:48.817798355Z"
+    description: A Helm chart for Kubernetes
+    digest: cbe386bda2887a651e0e0f5838c4583ae49a5cbae1624e9ff32ca418b9824fe4
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-check-0.0.5/mysql-check-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.4.13
     created: "2020-09-25T17:59:17.443240777Z"
     description: A Helm chart for Kubernetes
     digest: d494a8da3de893ed82c6c6c0e27d9d4d1a99bd67f0d02952db6bbb724f735ebb
