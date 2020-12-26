@@ -46,6 +46,25 @@ entries:
   haproxy:
   - annotations:
       category: Database
+    apiVersion: v2
+    appVersion: 2.2.6
+    created: "2020-12-26T06:41:21.568893208Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 62beb7c331ccef3ede50386fb25ba0adf8468453eb52ee6aedeb380aa1d557fd
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/haproxy-0.0.6/haproxy-0.0.6.tgz
+    version: 0.0.6
+  - annotations:
+      category: Database
     apiVersion: v1
     appVersion: 2.2.6
     created: "2020-12-17T22:40:40.674200173Z"
@@ -137,6 +156,20 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/haproxy-0.0.1/haproxy-0.0.1.tgz
     version: 0.0.1
   jellyfin:
+  - apiVersion: v2
+    appVersion: 10.6.4
+    created: "2020-12-26T06:41:21.680459797Z"
+    description: Jellyfin
+    digest: a331fd60b545765a0027807b36deb41b74b217f7d942845fda3b5ec432cf8b20
+    home: https://github.com/kfirfer/helm/tree/master/charts/jellyfin
+    icon: https://developer.asustor.com/uploadIcons/0020_999_1568614440_Jellyfin_256.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: jellyfin
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/jellyfin-1.0.1/jellyfin-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v1
     appVersion: 10.6.4
     created: "2020-09-26T02:34:51.027361621Z"
@@ -163,6 +196,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/metallb-0.0.1/metallb-0.0.1.tgz
     version: 0.0.1
   mysql-check:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.5.8
+    created: "2020-12-26T06:41:21.788405576Z"
+    description: A Helm chart for Kubernetes
+    digest: 303f676cee5f19c90b0905b8a86971543231c5ce0b1b93be2ed527587a5fa0c8
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-check-0.1.2/mysql-check-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       category: Database
     apiVersion: v2
@@ -406,7 +456,45 @@ entries:
     urls:
     - https://github.com/kfirfer/helm/releases/download/mysqldump-2.6.1/mysqldump-2.6.1.tgz
     version: 2.6.1
+  oauth2-proxy:
+  - apiVersion: v2
+    appVersion: v6.1.1
+    created: "2020-12-26T06:41:21.90958759Z"
+    description: A reverse proxy that provides authentication with Google, Github
+      or other providers
+    digest: 9f40c92de89e1ba2cac80568db2cc09df093e535741538e7cd38f0b82a7e905c
+    home: https://pusher.github.io/oauth2_proxy/
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    kubeVersion: '>=1.9.0-0'
+    name: oauth2-proxy
+    sources:
+    - https://github.com/pusher/oauth2_proxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/oauth2-proxy-3.3.0/oauth2-proxy-3.3.0.tgz
+    version: 3.3.0
   onlyoffice:
+  - apiVersion: v2
+    appVersion: 6.1.0.83
+    created: "2020-12-26T06:41:22.030388103Z"
+    description: A Helm chart for onlyoffice
+    digest: d3b5b63ceb53c8e348e476716a607ad42027c181392d680323800cfe0df0127b
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.1.2/onlyoffice-1.1.2.tgz
+    version: 1.1.2
   - apiVersion: v2
     appVersion: 6.1.0.83
     created: "2020-12-06T23:38:55.358688655Z"
@@ -440,6 +528,23 @@ entries:
     - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.0.0/onlyoffice-1.0.0.tgz
     version: 1.0.0
   percona-toolkit:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.2.1
+    created: "2020-12-26T06:41:22.144132795Z"
+    description: A Helm chart for Kubernetes
+    digest: ac3da6ef5e843743de8564d5231b9ee9226118674262fbd8c745900ab22b8125
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-toolkit
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/percona-toolkit-0.0.3/percona-toolkit-0.0.3.tgz
+    version: 0.0.3
   - annotations:
       category: Database
     apiVersion: v2
@@ -1003,6 +1108,20 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/percona-xtradb-cluster-1.0.5/percona-xtradb-cluster-1.0.5.tgz
     version: 1.0.5
   permission-manager:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-12-26T06:41:22.256307983Z"
+    description: A Helm chart for Kube-hunter
+    digest: 6c954a773f8b48a7daa2b8a184d50996ba09eb5b4a4e55cb04849333cc0d050f
+    home: https://github.com/kfirfer/helm/tree/master/charts/permission-manager
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    keywords:
+    - kubernetes
+    - security
+    name: permission-manager
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/permission-manager-1.0.0/permission-manager-1.0.0.tgz
+    version: 1.0.0
   - annotations:
       category: Infrastructure
     apiVersion: v2
@@ -1088,6 +1207,23 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/phpmyadmin-0.0.1/phpmyadmin-0.0.1.tgz
     version: 0.0.1
   pmm-server:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.12.0
+    created: "2020-12-26T06:41:22.371234679Z"
+    description: A Helm chart for Kubernetes
+    digest: 01017963d6cf1e7e76b07c94cc97e69c4411043aeebf360f82cef888b8ac9d81
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/pmm-server-0.1.2/pmm-server-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       category: Database
     apiVersion: v2
@@ -1188,6 +1324,18 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/pmm-server-0.0.1/pmm-server-0.0.1.tgz
     version: 0.0.1
   redis-commander:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2020-12-26T06:41:22.51156674Z"
+    description: A Helm chart for redis-commander
+    digest: 186cc33d20b0fcb093c489fdafacc4ca05155cf6bc5b0c72e6d9ebbf7bdddfbc
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-commander-0.0.3/redis-commander-0.0.3.tgz
+    version: 0.0.3
   - annotations:
       category: Database
     apiVersion: v2
