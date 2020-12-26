@@ -1092,6 +1092,23 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 2.12.0
+    created: "2020-12-26T06:16:08.885657097Z"
+    description: A Helm chart for Kubernetes
+    digest: 0873985831b0cfc5f66cbccab0b317a2091fefc6d4afc11c7136c5e9d87e7b22
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/pmm-server-0.1.1/pmm-server-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.12.0
     created: "2020-12-15T19:14:19.319855447Z"
     description: A Helm chart for Kubernetes
     digest: 3114a0cc6c6a9c3aab66058a870578dafbd1af3ccdfb93d22ff27d95f74e2455
