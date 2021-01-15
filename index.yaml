@@ -1611,6 +1611,17 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/permission-manager-0.0.1/permission-manager-0.0.1.tgz
     version: 0.0.1
+  phpmemcachedadmin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-01-15T14:34:27.327884357Z"
+    description: A Helm chart for Kubernetes
+    digest: 2e78373de4d5049d239ca36ba696ef489b89e8527ae10bcc3c8a3bbfd600e45e
+    name: phpmemcachedadmin
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/phpmemcachedadmin-0.0.2/phpmemcachedadmin-0.0.2.tgz
+    version: 0.0.2
   phpmyadmin:
   - annotations:
       category: Database
