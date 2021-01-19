@@ -64,6 +64,25 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 2.2.7
+    created: "2021-01-19T12:16:08.511272825Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 0a5826e532a8c12eca16a0d9fe6c9b86ee644b984d53f0114bb4db05c6828da9
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/haproxy-0.0.14/haproxy-0.0.14.tgz
+    version: 0.0.14
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.2.7
     created: "2021-01-19T12:15:04.8474147Z"
     description: Fast, reliable, scalable, and easy to use proxy
     digest: dae2b17b04fa8943012a42ef1582912f85bacf5d231b13580c7853b38df7772f
