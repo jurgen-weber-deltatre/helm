@@ -1928,6 +1928,27 @@ entries:
     urls:
     - https://github.com/kfirfer/charts/releases/download/pmm-server-0.0.1/pmm-server-0.0.1.tgz
     version: 0.0.1
+  proxysql:
+  - apiVersion: v2
+    appVersion: 2.0.15
+    created: "2021-01-24T21:42:35.117492672Z"
+    description: Chart for ProxySQL
+    digest: f571c2eee152b6b2e156e6e510d32a4d7eb49ff3ac06291e0d826ad78240e151
+    home: http://www.proxysql.com/
+    keywords:
+    - mysql
+    - database
+    - proxysql
+    - cluster
+    maintainers:
+    - email: jeremyxu2010@gmail.com
+      name: Jeremy Xu
+    name: proxysql
+    sources:
+    - https://github.com/sysown/proxysql
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/proxysql-0.0.1/proxysql-0.0.1.tgz
+    version: 0.0.1
   redis-commander:
   - annotations:
       category: Database
