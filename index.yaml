@@ -1954,6 +1954,18 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: latest
+    created: "2021-01-24T22:03:31.553667998Z"
+    description: A Helm chart for redis-commander
+    digest: 57649d11a3d9724e2b7391fc5abe457d8a81f4dd8d95eb6993ce0a7c88440ccf
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-commander-0.0.6/redis-commander-0.0.6.tgz
+    version: 0.0.6
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
     created: "2021-01-11T21:25:02.421439889Z"
     description: A Helm chart for redis-commander
     digest: b4e50791fe52b1f409bea930d23ddb801f49c8c3d73e36db6917939b1b686d53
