@@ -1737,6 +1737,16 @@ entries:
   phpmemcachedadmin:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-01-27T19:36:56.658552207Z"
+    description: A Helm chart for Kubernetes
+    digest: f436d3f1465e7d587adb35346bf8af44878a631779dce311258a2bfdfb57852e
+    name: phpmemcachedadmin
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/phpmemcachedadmin-0.0.3/phpmemcachedadmin-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-01-15T14:34:27.327884357Z"
     description: A Helm chart for Kubernetes
     digest: 2e78373de4d5049d239ca36ba696ef489b89e8527ae10bcc3c8a3bbfd600e45e
