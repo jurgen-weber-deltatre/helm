@@ -63,6 +63,25 @@ entries:
   - annotations:
       category: Database
     apiVersion: v2
+    appVersion: 2.2.9
+    created: "2021-02-10T01:15:29.242022332Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 83ac6f2736575a528118fcb14a4ba239d842b90a123ecb4ea7763321afd59741
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/haproxy-0.0.22/haproxy-0.0.22.tgz
+    version: 0.0.22
+  - annotations:
+      category: Database
+    apiVersion: v2
     appVersion: 2.2.8
     created: "2021-02-08T01:32:51.587488419Z"
     description: Fast, reliable, scalable, and easy to use proxy
@@ -2212,6 +2231,33 @@ entries:
     - https://github.com/kfirfer/helm/releases/download/redis-commander-0.0.1/redis-commander-0.0.1.tgz
     version: 0.0.1
   redis-ha:
+  - apiVersion: v2
+    appVersion: 6.0.10
+    created: "2021-02-10T01:15:29.351682134Z"
+    description: This Helm chart provides a highly available Redis implementation
+      with a master/slave configuration and uses Sentinel sidecars for failover management
+    digest: a0d78c8f4345026ac3bccd6991e6d2421e7c89164a1ff6c11c092486443083c0
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: salimsalaues@gmail.com
+      name: ssalaues
+    - email: aaron.layfield@gmail.com
+      name: dandydeveloper
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: redis-ha
+    sources:
+    - https://redis.io/download
+    - https://github.com/scality/Zenko/tree/development/1.0/kubernetes/zenko/charts/redis-ha
+    - https://github.com/oliver006/redis_exporter
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-ha-4.10.21/redis-ha-4.10.21.tgz
+    version: 4.10.21
   - apiVersion: v2
     appVersion: 6.0.10
     created: "2021-02-08T01:32:51.701696997Z"
