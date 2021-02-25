@@ -2231,6 +2231,33 @@ entries:
     - https://github.com/kfirfer/helm/releases/download/redis-commander-0.0.1/redis-commander-0.0.1.tgz
     version: 0.0.1
   redis-ha:
+  - apiVersion: v1
+    appVersion: 6.0.11
+    created: "2021-02-25T02:55:53.88481668Z"
+    description: This Helm chart provides a highly available Redis implementation
+      with a master/slave configuration and uses Sentinel sidecars for failover management
+    digest: 5ef5f49c52de172e8f1dea3b36d56aa2f3fcca2fccdf569b3f93cf058174473f
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: salimsalaues@gmail.com
+      name: ssalaues
+    - email: aaron.layfield@gmail.com
+      name: dandydeveloper
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: redis-ha
+    sources:
+    - https://redis.io/download
+    - https://github.com/DandyDeveloper/charts/blob/master/charts/redis-ha
+    - https://github.com/oliver006/redis_exporter
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-ha-4.12.8/redis-ha-4.12.8.tgz
+    version: 4.12.8
   - apiVersion: v2
     appVersion: 6.0.10
     created: "2021-02-10T01:15:29.351682134Z"
