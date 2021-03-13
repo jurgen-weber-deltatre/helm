@@ -478,6 +478,20 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 10.6.4
+    created: "2021-03-13T11:44:10.86257055Z"
+    description: Jellyfin
+    digest: 96709b0e1d2c547991f95c6fe192efd814353bb9a8a7d671f557b192d97fdd79
+    home: https://github.com/kfirfer/helm/tree/master/charts/jellyfin
+    icon: https://developer.asustor.com/uploadIcons/0020_999_1568614440_Jellyfin_256.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: jellyfin
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/jellyfin-1.0.3/jellyfin-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 10.6.4
     created: "2021-01-11T21:25:01.116867201Z"
     description: Jellyfin
     digest: a5b319e69dabe7db145d7766e6765b05528a53238c3ece167c97cd5a423e4564
