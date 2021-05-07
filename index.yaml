@@ -967,6 +967,22 @@ entries:
     version: 3.3.0
   onlyoffice:
   - apiVersion: v2
+    appVersion: 6.2.2.21
+    created: "2021-05-07T09:08:08.087940104Z"
+    description: A Helm chart for onlyoffice
+    digest: cae1101f071b2d61f46f09a4fead956f14be4873020f5791d943d9904d5fd247
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.1.6/onlyoffice-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v2
     appVersion: 6.1.0.83
     created: "2021-01-12T18:30:19.597419586Z"
     description: A Helm chart for onlyoffice
