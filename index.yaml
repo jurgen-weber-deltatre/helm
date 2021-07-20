@@ -64,6 +64,25 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 2.2.14
+    created: "2021-07-20T11:01:15.324134425Z"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: 4997cfa4b4489b57c5b2f045c18893f70fd4639ef02eb96ee06c3499ad8236ed
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/haproxy-0.1.2/haproxy-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.2.14
     created: "2021-07-16T15:05:12.843643731Z"
     description: Fast, reliable, scalable, and easy to use proxy
     digest: 507a436435983392b4e5c346d3861c11731a0acd5f2a63ab7b7c2b7b8d9fdbc2
@@ -818,6 +837,35 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 2.4.1
+    created: "2021-07-20T11:01:15.456310256Z"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: bb33e9c00648d9f73a6d8f98718f4d7bd05d7402abd1dc9dc21739c12f5bd924
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysqldump-2.6.9/mysqldump-2.6.9.tgz
+    version: 2.6.9
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.4.1
     created: "2021-06-24T08:59:40.660368205Z"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: 1edc81d8db5aa3e5cde274109522e68003b719b8408eb4f57c786d0a2a931e10
@@ -1063,6 +1111,22 @@ entries:
   onlyoffice:
   - apiVersion: v2
     appVersion: 6.2.2.21
+    created: "2021-07-20T11:01:15.58742218Z"
+    description: A Helm chart for onlyoffice
+    digest: a278d4aedea60f78f2bcc67d0ccc6efaea0ce9fca396342e5f11420d0b87a660
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.2.2/onlyoffice-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v2
+    appVersion: 6.2.2.21
     created: "2021-07-16T15:05:12.990386491Z"
     description: A Helm chart for onlyoffice
     digest: 55e9439dc1e84e3342417ce9bce5761f07e61468cb89b69b6f46bba9e888c8e3
@@ -1206,6 +1270,23 @@ entries:
     - https://github.com/kfirfer/helm/releases/download/onlyoffice-1.0.0/onlyoffice-1.0.0.tgz
     version: 1.0.0
   percona-toolkit:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.2.1
+    created: "2021-07-20T11:01:15.731371385Z"
+    description: A Helm chart for Kubernetes
+    digest: 20cfb5c82ed57cff6f3e3ca9434d09d7e01b9209a612a18fc0f82debaab88a17
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-toolkit
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/percona-toolkit-0.0.5/percona-toolkit-0.0.5.tgz
+    version: 0.0.5
   - annotations:
       category: Database
     apiVersion: v2
@@ -2385,6 +2466,23 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 2.19.0
+    created: "2021-07-20T11:01:15.885691656Z"
+    description: A Helm chart for Kubernetes
+    digest: b8da82cffdf3223626c132ff86c4cc93d431484ba55f8070a3c1b59eb0827345
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/pmm-server-0.2.3/pmm-server-0.2.3.tgz
+    version: 0.2.3
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.19.0
     created: "2021-07-16T15:05:13.138339667Z"
     description: A Helm chart for Kubernetes
     digest: 19b0ae5cb28b25df223f04f3abce779b6c087e1f3fa6da174d96698077eca23a
@@ -2587,6 +2685,18 @@ entries:
     - https://github.com/kfirfer/helm/releases/download/proxysql-0.0.1/proxysql-0.0.1.tgz
     version: 0.0.1
   redis-commander:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2021-07-20T11:01:16.02955796Z"
+    description: A Helm chart for redis-commander
+    digest: f679155145479a2516fcf3986fed0a9e3f1c0ee181f1fe13e816c74959b3f2cc
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/redis-commander-0.1.2/redis-commander-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       category: Database
     apiVersion: v2
