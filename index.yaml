@@ -1357,6 +1357,34 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.23-14.1
+    created: "2021-07-20T19:31:08.940294235Z"
+    description: free, fully compatible, enhanced, open source drop-in replacement
+      for MySQL with Galera Replication (xtradb)
+    digest: 5c4cf58577792be94fba5191ec6a3172aeb90970c2f1c9e1c0f1609413f6289e
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-xtradb-cluster
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    keywords:
+    - mysql
+    - percona
+    - database
+    - sql
+    - xtradb
+    - galera
+    - wsrep
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: percona-xtradb-cluster
+    sources:
+    - https://www.percona.com/
+    - https://github.com/percona-lab/percona-docker/
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/percona-xtradb-cluster-1.5.2/percona-xtradb-cluster-1.5.2.tgz
+    version: 1.5.2
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.23-14.1
     created: "2021-07-19T06:06:13.10611064Z"
     description: free, fully compatible, enhanced, open source drop-in replacement
       for MySQL with Galera Replication (xtradb)
