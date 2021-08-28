@@ -647,6 +647,23 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 10.5.8
+    created: "2021-08-28T20:00:04.358881729Z"
+    description: A Helm chart for Kubernetes
+    digest: 10bdc980a91d28e85fc5c9fbafd5d24571f897395ba53efaf7fc4788b9c0e1a2
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysql-check-0.1.4/mysql-check-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.5.8
     created: "2021-01-11T21:25:01.262037007Z"
     description: A Helm chart for Kubernetes
     digest: d222f4a14673a4dad6a4abf30bbe5a98e307fec437d29ee319db69c4028d041d
@@ -833,6 +850,35 @@ entries:
     - https://github.com/kfirfer/charts/releases/download/mysql-cluster-0.0.1/mysql-cluster-0.0.1.tgz
     version: 0.0.1
   mysqldump:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.4.1
+    created: "2021-08-28T20:00:04.501639664Z"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: 970b413dd50a270d6ec7173115d78bec817fbd67e5f9e27137234ca864f6262d
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/kfirfer/helm/releases/download/mysqldump-2.7.0/mysqldump-2.7.0.tgz
+    version: 2.7.0
   - annotations:
       category: Database
     apiVersion: v1
